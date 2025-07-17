@@ -14,7 +14,9 @@ public class GameFrame {
 
 		GamePanel panel = new GamePanel();
 		frame.add(panel);
-		frame.setRelativeLocationTo(null);
+		frame.pack();
+
+		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
 	}
 }
